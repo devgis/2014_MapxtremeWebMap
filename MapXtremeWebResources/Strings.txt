@@ -1,0 +1,37 @@
+;
+; String table
+;
+
+ZoomInMapToolHelpText = "To zoom in, click on the map or hold the mouse down and drag to draw rectangle, and release to end the operation"
+ZoomOutMapToolHelpText = "To zoom out, click on the map"
+CenterMapToolHelpText = "To center the map, click on the map"
+PanMapToolHelpText = "To pan the map, hold the mouse down and drag the map to pan"
+DistanceMapToolHelpText = "To find distance between points, click to start, every click finishes the line and double click ends the operation"
+PointSelectionMapToolHelpText = "To select features at point, click on map to select features at point"
+PolygonSelectionMapToolHelpText = "To select features within polygon, click to start, every click finishes the line and double click ends the operation"
+RectangleSelectionMapToolHelpText = "To select features within rectangle, hold the mouse down and drag to draw rectangle, and release to end the operation"
+RadiusSelectionMapToolHelpText = "To select features within radius, hold the mouse down and drag to draw circle, and release to end the operation"
+InfoMapToolHelpText = "To find information about a feature, click on the map"
+
+InvalidMapID=MapControl with id {0} was not found.
+MapNotSet=Map object is not set for this LegendControl
+LegendNotSet=Legend object is not set for this LegendControl
+InvDistTypeForLatLong = Using Cartesian distance type for Lat/Long data is not valid
+InvDistTypeForNonEarth = Using Spherical distance type for Non Earth data is not valid
+
+;; Layer Control
+displayrange_label=Display within Range:
+layercontrol_label=Layer Control
+maxzoom_label=Max. Zoom:
+minzoom_label=Min. Zoom:
+visible_label=Visible
+entire_group_visible_label=Apply Visibility to Entire Group:
+entire_group_displayrange_label=Apply Zoom Range to Entire Group:
+selectable_label=Selectable
+zoomwidth_label=Zoom (Window Width):
+button_apply=Apply Changes
+
+;; Javascript validation strings
+validate_numericfield=Field requires only numeric values
+validate_mingtrmax=Minimum zoom cannot exceed Maximum Zoom
+validate_maxltmin=Maximum zoom cannot be less than Minimum zoom
